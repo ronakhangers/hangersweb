@@ -555,21 +555,234 @@ table a, #comments a{background-color:inherit;}
 	color: white;
 }
 
+.work-together > h2 {
+	font-size: 1rem;
+}
+
+
+.work-before-footer {
+	padding: 2rem;
+}
+
+.welcome-head{
+	margin-bottom: -2rem !important;
+}
+
+.work-align{
+	margin-top: 2rem;
+	text-align: end;
+}
+.button-align{
+	text-align: start;
+	margin-top: 1rem;
+
+}
+
+
+.button-align > p > a {
+	font-size: 22px;
+	border: white 2px solid;
+	padding: 10px 10px;
+	border-radius: 10px;
+	color: #FFFFFF;
+	font-family: sans-serif;
+	background-color: transparent;
+
+}
+
+.button-align > p > a:hover {
+	background-color: #FFFFFF;
+	color: #2e92d0;
+}
+
+.letswork {
+	font: 600 32px 'OpenSans-Semibold';
+	font-family: "OpenSans-Semibold", sans-serif;
+	color: white;
+}
+
+.bg-blue{
+	background:linear-gradient(to right, #0063bd, #24b8e4)	
+}
 
 
 
-/* trail */
-/* .us-contact--wrap{
-    background: linear-gradient(to right, #0063bd, #24b8e4);
-    padding: 30px 0;
-    .text-wrap{
-        text-align: right;
-        @media #{$mobile-only}{
-            text-align: center;
-        }
-        h3{
-            color: $white;
-            margin: 4px 0;
-            font-size: 27px;
-        }
-    } */
+.work-together {
+	font-size: 2rem;
+}
+
+
+
+/* contact form page */
+
+/* h1, h2, h3, h4, h5, h6{
+	color: #000;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: 700;
+  margin: 0 0 30px 0;
+} */
+#fh5co-main {
+  
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+#fh5co-main .fh5co-narrow-content {
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+  padding: 4em 0;
+}
+.form-control{
+	 -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  box-shadow: none;
+  background: transparent;
+  border: 2px solid rgba(0, 0, 0, 0.1) !important;
+  height: 54px !important;
+  font-size: 18px;
+  font-weight: 300;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  border-radius: 0px !important;
+}
+#message {
+  height: 130px !important;
+}
+.btn.btn-md {
+  padding: 10px 25px !important;
+}
+/* .btn-primary {
+  background: #2e92d0 !important;
+  color: #fff !important;
+  border: 2px solid #da1212 !important;
+border-radius: 0px !important;
+} */
+
+.row-centered {
+	justify-content: center;
+}
+/* contact form page end */
+
+
+
+.pagebannerall {
+	/* background-image: url(../caro/handshake.jpg); */
+	height: 55px;
+	background-color: #f8f8f8;
+	text-align: center;
+	/* overflow: hidden; */
+	background-repeat: no-repeat;
+	background-size: cover;	
+}
+
+.pagebanner .bg-color {
+	background-image : linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(36, 184, 228, 0.4))
+}
+
+
+
+
+
+/* example strap */
+
+/* stylelint-disable selector-list-comma-newline-after */
+
+/* 
+.main-slide {
+	height: 550px;
+	background-image: url(../../caro/handshake.jpg) ; 
+	
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-size: cover;	
+}
+ */
+
+ .slide-image {
+	background-image: url(../../caro/handshake.jpg);
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-size: cover;	
+	height: 550px;
+} 
+
+  .heading-main {
+	  margin-top: 6rem;
+	font-size: 50px;
+	margin-bottom: 2rem;
+	font-family: sans-serif;
+  }
+
+
+  @media (min-width: 768px) {
+	.display-4 {
+	  font-size: 3rem;
+	}
+  }
+
+/* example */	
+
+
+
+.color-image {
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(36, 184, 228, 0.4));
+	width: 100%;
+	height: 100%;
+}
+
+
+.button-sizing2 {
+	color: #ffffff;
+    background-color: #029dcd;
+    box-shadow: 0 4px 0 #0281a8;
+    display: inline-block;
+    padding: 16px 30px;
+    text-transform: uppercase;
+	border-radius: 3px;
+	font-size: large;
+	
+}
+
+
+.button-sizing2:hover {
+	transition: all 0.35s ease-in-out;
+    background-color: #0281a8;
+}
+
+.font-sizing {
+	color: white;
+}
+
+
+
+.button-sizing2 > a {
+	color : white;
+	font-weight: bold;
+}
+
+.button-sizing2 > a:hover {
+	text-decoration: none;
+}
+
+
+.lead {
+	font-weight: 600 !important;
+}
+
+.left-align {
+	text-align: left;
+}
+
+.footer-list {
+	margin-bottom: -5rem;
+    background-color: #1a1a1a;
+	 color: #999;
+
+}
+
+.footer-list > a:hover {
+	text-decoration: none;
+}
