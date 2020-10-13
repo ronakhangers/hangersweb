@@ -90,7 +90,7 @@ File: Layout CSS
 .testimonials figure{}
 .testimonials figure *{margin:0; line-height:1;}
 .testimonials figure img{margin:0 0 15px 0;}
-.testimonials figcaption .heading{font-size:1.2rem; font-weight:700;}
+.testimonials figcaption .heading{font-size:2rem; font-weight:700;}
 .testimonials figcaption em{font-size:.8rem;}
 
 .latest{margin-bottom:80px;}
@@ -282,7 +282,8 @@ td{border-width:0 1px;}
 --------------------------------------------------------------------------------------------------------------- */
 body{color:#7A7A7A; background-color:#FFFFFF;}
 a{color:#FFA41F;}
-a:active, a:focus{background:transparent;}/* IE10 + 11 Bugfix - prevents grey background */
+/* a:active, a:focus{background:transparent;} */
+/* IE10 + 11 Bugfix - prevents grey background */
 hr, .borderedbox{border-color:#D7D7D7;}
 label span{color:#FF0000; background-color:inherit;}
 input:focus, textarea:focus, *:required:focus{border-color:#FFA41F;}
@@ -359,7 +360,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#FFA41F;}
 .pagination a, .pagination strong{border-color:#D7D7D7;}
 .pagination .current *{color:#FFFFFF; background-color:#FFA41F;}
 
-#backtotop{color:#FFFFFF; background-color:#FFA41F;}
+#backtotop{color:#FFFFFF; background-color:green;}
 
 
 /* Tables + Comments */
@@ -706,7 +707,7 @@ border-radius: 0px !important;
 	overflow: hidden;
 	background-repeat: no-repeat;
 	background-size: cover;	
-	height: 550px;
+	height: 450px;
 } 
 
   .heading-main {
@@ -725,6 +726,22 @@ border-radius: 0px !important;
 
 /* example */	
 
+
+/* blog quotes  */
+
+.blog-quotes {
+position: relative;
+display: block;
+padding: 13px 20px 13px 40px;
+border: 1px solid #cccccc;
+margin: 12px 0 12px;
+font-family: Georgia, Times, "Times New Roman", serif;
+
+
+}
+
+
+/* end quotes */
 
 
 .color-image {
@@ -770,6 +787,7 @@ border-radius: 0px !important;
 
 .lead {
 	font-weight: 600 !important;
+	padding-top: 2rem;
 }
 
 .left-align {
@@ -777,7 +795,7 @@ border-radius: 0px !important;
 }
 
 .footer-list {
-	margin-bottom: -5rem;
+	/* margin-bottom: -10rem; */
     background-color: #1a1a1a;
 	 color: #999;
 
@@ -785,4 +803,106 @@ border-radius: 0px !important;
 
 .footer-list > a:hover {
 	text-decoration: none;
+}
+
+.fa-quote-left {
+	color : #029dcd;
+}
+
+.bhagwan-images {
+	justify-content: center;
+	;
+}
+
+.bhagwan-images > img {
+	height: 20rem;
+}
+
+.main-header {
+	height: 2rem;
+	
+}
+
+.welcome-head-color {
+	background-color: #e9ecef;
+}
+
+
+.heading {
+	font-size: 2rem;
+}
+
+/* 
+.container  {
+	padding-top: 20px;
+	padding-bottom: 20px;
+} */
+
+.about-us {
+	padding-top: 20px;
+}
+
+.phone-number {
+	font-family: sans-serif;
+}
+
+/* .phone {
+	padding: 20px;
+} */
+
+.phone-all {
+	justify-content: center;
+}
+
+.contact-us{
+	padding-bottom: 0px;
+}
+
+.contact-card {
+	padding-bottom: 0px;
+}
+
+.map-page {
+	padding-top: 0px;
+}
+
+.product-images-section {
+	padding-top: 5px;
+}
+
+.text-colorartion > li > a {
+	color: black;
+}
+
+.top{
+	padding: 5px 0;
+    height: 36px;
+    background: #fff;
+    width: 100%;
+    box-shadow: 0 0 3px 3px rgba(0,0,0,.1);
+}
+
+
+.whats-app {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 3px 4px 3px #999;
+    right: 15px;
+    z-index: 100;
+}
+
+
+.whats-app:active .whats-app:focus{
+	background: #25d366;
+}
+
+.my-float {
+    margin-top: 10px;
 }
