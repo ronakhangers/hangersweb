@@ -567,6 +567,7 @@ table a, #comments a{background-color:inherit;}
 
 .welcome-head{
 	margin-bottom: -2rem !important;
+	background-color:  #e9ecef;
 }
 
 .work-align{
@@ -822,11 +823,11 @@ font-family: Georgia, Times, "Times New Roman", serif;
 	height: 2rem;
 	
 }
-
+/* 
 .welcome-head-color {
 	background-color: #e9ecef;
 }
-
+ */
 
 .heading {
 	font-size: 2rem;
@@ -905,4 +906,55 @@ font-family: Georgia, Times, "Times New Roman", serif;
 
 .my-float {
     margin-top: 10px;
+}
+
+
+.icons-social {
+	color: white;
+}
+
+.header-top-content {
+	text-align: center;
+	
+}
+
+.small-container {
+	height: 30px;
+}
+.welcome-container {
+	padding-top: 15px;
+	
+}
+
+
+.head-content-custom {
+	padding-top: 30px ;
+	padding-bottom: 20px;
+}
+
+.types-of-hnager-container {
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+.footer-list-container {
+	padding-bottom: 0px;
+	padding-top: 30px;
+}
+
+/* .slide-image-2 {
+	background-image: url(../../slide-image/contact\ page.jpg);
+	height: 450px;
+} */
+
+
+
+
+.product-gallery {
+	margin-top: 15px;
+}
+
+.product-gallery > a > p{
+	color: black;
+	text-decoration: none;
 }
