@@ -998,7 +998,7 @@ font-family: Georgia, Times, "Times New Roman", serif;
 }
 
 .success{
-	color: #118BCF;
+	color:  rgb(40,60,140);
 }
 @media screen and (max-height: 450px) {
 	.sidenav {padding-top: 15px;}
@@ -1067,11 +1067,6 @@ font-family: Georgia, Times, "Times New Roman", serif;
 	color: #064579;
   }
   
-  .main {
-	margin-left: 140px; /* Same width as the sidebar + left position in px */
-	font-size: 28px; /* Increased text to enable scrolling */
-	padding: 0px 10px;
-  }
   
   @media screen and (max-height: 450px) {
 	.sidenav {padding-top: 15px;}
@@ -1098,4 +1093,24 @@ font-family: Georgia, Times, "Times New Roman", serif;
 
 .call-us {
 	font-size: 20px;
+}
+
+
+.slide-image-products {
+	background-image: url(../../caro/hanger-product-3.jpg);
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-size: cover;	
+	height: 450px;
+} 
+
+
+
+.heading-main-products {
+	margin-top: 20rem;
+  font-size: 5rem;
+  margin-bottom: 2rem;
+  font-family: sans-serif;
+  color: rgb(40,60,140);
+  
 }
