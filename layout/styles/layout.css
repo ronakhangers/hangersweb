@@ -790,6 +790,7 @@ font-family: Georgia, Times, "Times New Roman", serif;
 .lead {
 	font-weight: 600 !important;
 	padding-top: 2rem;
+
 }
 
 .left-align {
@@ -1113,4 +1114,9 @@ font-family: Georgia, Times, "Times New Roman", serif;
   font-family: sans-serif;
   color: rgb(40,60,140);
   
+}
+
+
+.Trusted-global {
+	font-size: 1.5rem !important;
 }
