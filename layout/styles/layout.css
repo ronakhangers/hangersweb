@@ -511,6 +511,11 @@ table a, #comments a{background-color:inherit;}
 	padding-right: 1rem;
 }
 
+
+.item-phone-side {
+	padding-right: 0px;
+}
+
 .main-head {
 	text-align: center;
 	justify-content: center;
@@ -1112,11 +1117,20 @@ font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 5rem;
   margin-bottom: 2rem;
   font-family: sans-serif;
-  color: rgb(40,60,140);
+  color:white;
   
 }
 
 
 .Trusted-global {
 	font-size: 1.5rem !important;
+}
+
+nav > center-block > a.active {
+    color: red;
+}
+
+#switch-2	 > a.active {
+	background-color: red;
+	color: white;
 }

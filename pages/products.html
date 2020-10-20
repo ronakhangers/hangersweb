@@ -12,15 +12,16 @@
 </head>
 <body>
 
+
  <!-- ********************************************************************************* head top **************************************************************************** -->
 
  <div class="small-container head-phone " style="background-color:#5467AB;">
   <div class="header-top-content row ml-auto  mt-4">
     <div class="phone ">
-        <a href="tel: 02228812597 " target="_blank" class="item-phone"> <i class="fa fa-phone"></i> 022 2881 2597</a>
-        <a href="tel: 9892070638 " target="_blank" class="item-phone"> <i class="fa fa-phone"></i> +91 98920 70638</a>
-        <a  href="mailto:info@ronakhangers.com"  class="item-phone" target="_blank"><i class="fa fa-envelope-o"></i> info@ronakhangers.com</a>
-        <a  href="mailto:ronakhangers2004@yahoo.com"  class="item-phone" target="_blank"><i class="fa fa-envelope-o"></i> ronakhangers2004@yahoo.com</a>
+        <a href="tel: 02228812597 " target="_blank" class="item-phone item-phone-side"> <i class="fa fa-phone"></i> 022 2881 2597 /<a href="tel: 9892070638 " target="_blank" class="item-phone"> 98920 70638</a></a>
+
+        <a  href="mailto:info@ronakhangers.com"  class="item-phone  item-phone-side" target="_blank"><i class="fa fa-envelope-o"></i> info@ronakhangers.com /<a  href="mailto:ronakhangers2004@yahoo.com"  class="item-phone" target="_blank"> ronakhangers2004@yahoo.com</a></a>
+        
     </div> 
     <div class=>
       <a href="facebook.com" class="icons-social"><i class="fa fa-facebook mr-4"></i></a>
@@ -31,7 +32,6 @@
   </div>
 
 <!-- ********************************************************************************* head top end  ************************************************************************** -->
-
 
 
 
@@ -79,7 +79,7 @@
 
     <div class="container p-10 p-md-5 text-white rounded main-slide2" >
       <div class="col-md-12 px-0">
-        <h1 class="heading-main-products ">Products</h1>
+   
         <!-- <p class="lead my-3">Trusted globally for delivering accurate and cost-effective translation and localization solutions</p>
         <p class="button-sizing2  "><a href="./contact-us.html#contact" class="font-sizing">Get in Touch</a></p> -->
       </div>
@@ -110,10 +110,10 @@
 
   <nav class="navbar navbar-header  justify-content-center sticky-top bg-custom-2">
 
-      <div  class="center-block middle-options text-center ">
+      <div  class="center-block middle-options text-center " id="switch-2">
     
-        <a href="#plastic" class="btn btn-primary btn-lg ">Plastic</a>
-        <a href="#Wooden" class="btn btn-secondary btn-lg ">Wooden</a>
+        <a href="#plastic" class="btn btn-primary btn-lg switch">Plastic</a>
+        <a href="#Wooden" class="btn btn-primary btn-lg switch">Wooden</a>
       <!-- <a class="navbar-brand" href="#a">BootstrapBay</a> -->
     </div>
   </nav>
@@ -410,7 +410,7 @@
         <h6 class="text-uppercase font-weight-bold">Products</h6>
         <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
         <p>
-          <a href="./products.html#plastic">plastic Hangers</a>
+          <a href="./products.html#plastic">Plastic Hangers</a>
         </p>
         <p>
           <a href="./products.html#Wooden">Wood Hangers</a>
@@ -524,8 +524,6 @@
 
 
 
-
-
 <script src="../layout/scripts/jquery.min.js"></script>
 <script src="../layout/scripts/jquery.backtotop.js"></script>
 <script src="../layout/scripts/jquery.mobilemenu.js"></script>
@@ -549,6 +547,36 @@
 });
 </script>
 
+<!-- <script>
+  
+  let ul = document.getElementById('switch');
+		var li = document.querySelectorAll('a');
+
+		li.forEach(el => {
+
+			el.addEventListener('click', function(){
+			ul.querySelector('.active').classList.remove('active');
+ 			
+ 				el.classList.add('active');
+ 			}); 			
+		});
+
+</script> -->
+
+<!-- 
+<script>
+
+let buttons =  document.querySelectorAll  ('switch');
+
+buttons.forEach(button => {
+  button.addEventListener('click', function () {
+    buttons.forEach(btn => btn.classlist.remove('active'));
+    this.classList.add('active');
+  });
+});
+
+
+</script> -->
 
 </body>
 </html>
