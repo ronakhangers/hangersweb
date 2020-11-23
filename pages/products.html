@@ -526,11 +526,11 @@
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
-<!-- 
-<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
- -->
 
+<!-- <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+ -->
 
 
 
@@ -545,6 +545,36 @@
 });
 </script>
 
+<!-- <script>
+  
+  let ul = document.getElementById('switch');
+		var li = document.querySelectorAll('a');
+
+		li.forEach(el => {
+
+			el.addEventListener('click', function(){
+			ul.querySelector('.active').classList.remove('active');
+ 			
+ 				el.classList.add('active');
+ 			}); 			
+		});
+
+</script> -->
+
+<!-- 
+<script>
+
+let buttons =  document.querySelectorAll  ('switch');
+
+buttons.forEach(button => {
+  button.addEventListener('click', function () {
+    buttons.forEach(btn => btn.classlist.remove('active'));
+    this.classList.add('active');
+  });
+});
+
+
+</script> -->
 
 </body>
 </html>
